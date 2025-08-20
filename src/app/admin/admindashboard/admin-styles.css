@@ -1,0 +1,132 @@
+/* Admin dashboard specific styles to fix visibility issues */
+
+/* General text colors */
+.admin-dashboard {
+  color: #171717 !important;
+  background-color: #f0f0f2 !important;
+}
+
+/* Table text */
+.admin-dashboard table {
+  color: #1f2937 !important;
+}
+
+/* Card text */
+.admin-dashboard .card {
+  background-color: white !important;
+  color: #1f2937 !important;
+}
+
+.admin-dashboard .card-title {
+  color: #1f2937 !important;
+}
+
+.admin-dashboard .card-description {
+  color: #6b7280 !important;
+}
+
+/* Dropdown menu text */
+.admin-dashboard .dropdown-menu-content {
+  background-color: white !important;
+  color: #1f2937 !important;
+}
+
+/* Form labels and inputs */
+.admin-dashboard label {
+  color: #374151 !important;
+}
+
+.admin-dashboard input, 
+.admin-dashboard select,
+.admin-dashboard textarea {
+  color: #1f2937 !important;
+  background-color: white !important;
+}
+
+/* Search input specific styling */
+.admin-dashboard input[placeholder*="Search"] {
+  background-color: white !important;
+  color: #1f2937 !important;
+  border-color: #d1d5db !important;
+}
+
+/* Dialog text */
+.admin-dashboard .dialog-content {
+  background-color: white !important;
+  color: #1f2937 !important;
+}
+
+/* Button styling fixes */
+.admin-dashboard button {
+  color: inherit !important;
+}
+
+/* Assign/Create buttons - green background with white text */
+.admin-dashboard .assign-button,
+.admin-dashboard .create-button {
+  background-color: #10b981 !important; /* Emerald 600 */
+  color: white !important;
+  border-color: #10b981 !important;
+}
+
+.admin-dashboard .assign-button:hover,
+.admin-dashboard .create-button:hover {
+  background-color: #059669 !important; /* Emerald 700 */
+}
+
+/* Refresh and Export buttons - gray background with white text */
+.admin-dashboard .refresh-button,
+.admin-dashboard .export-button {
+  background-color: #6b7280 !important; /* Gray 500 */
+  color: white !important;
+  border-color: #6b7280 !important;
+}
+
+.admin-dashboard .refresh-button:hover,
+.admin-dashboard .export-button:hover {
+  background-color: #4b5563 !important; /* Gray 600 */
+}
+
+/* Filter button - white background with gray icon */
+.admin-dashboard .filter-button {
+  background-color: white !important;
+  color: #6b7280 !important;
+  border-color: #d1d5db !important;
+}
+
+.admin-dashboard .filter-button:hover {
+  background-color: #f9fafb !important;
+  border-color: #9ca3af !important;
+}
+
+/* Search icon color */
+.admin-dashboard svg[class*="Search"] {
+  color: #6b7280 !important;
+}
+
+/* Force light mode for admin dashboard */
+.admin-dashboard .dark {
+  --background: #ffffff !important;
+  --foreground: #171717 !important;
+  --card: #ffffff !important;
+  --card-foreground: #171717 !important;
+  --popover: #ffffff !important;
+  --popover-foreground: #171717 !important;
+}
+
+/* Elegant sidebar */
+.elegant-sidebar {
+  background-color: #2c3e50 !important;
+  color: #f8f9fa !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.elegant-sidebar button:hover {
+  background-color: rgba(103, 232, 249, 0.2) !important; /* sky-200 with opacity */
+  color: #f1f5f9 !important; /* gray-100 */
+}
+
+.elegant-sidebar button.active {
+  background-color: rgba(103, 232, 249, 0.25) !important;
+  color: #f1f5f9 !important;
+} 

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "d274ffa3-0587-4c25-bcce-145032e9998f",
+    "title": "Blockchain for Supply Chain Transparency",
+    "description": "A system implementing blockchain technology for improving transparency and traceability in global supply chains. The project uses Hyperledger Fabric to create an immutable record of product movements and transformations.",
+    "author": "John Smith",
+    "supervisor": "Dr. Emily Johnson",
+    "year": 2024,
+    "department": "Computer Science",
+    "tags": [
+      "Blockchain",
+      "Supply Chain",
+      "Transparency",
+      "Hyperledger"
+    ]
+  },
+  {
+    "id": "975672ab-5750-449d-aa51-3a5593cdd09a",
+    "title": "Machine Learning for Crop Disease Detection",
+    "description": "An application of convolutional neural networks for early detection of plant diseases through leaf image analysis. The system can identify 38 different diseases across 14 crop species with over 95% accuracy.",
+    "author": "Sarah Williams",
+    "supervisor": "Prof. Michael Chen",
+    "year": 2023,
+    "department": "Agricultural Engineering",
+    "tags": [
+      "Machine Learning",
+      "Agriculture",
+      "Disease Detection",
+      "CNN"
+    ]
+  },
+  {
+    "id": "fe16d951-4748-4857-b983-ae6cfc48ddd6",
+    "title": "AR Applications for Educational Environments",
+    "description": "Development of augmented reality applications to enhance learning experiences in STEM subjects for secondary education. The project creates interactive 3D models that students can manipulate through a mobile application.",
+    "author": "David Rodriguez",
+    "supervisor": "Dr. Lisa Thompson",
+    "year": 2024,
+    "department": "Education Technology",
+    "tags": [
+      "AR",
+      "Education",
+      "STEM",
+      "Mobile App"
+    ]
+  },
+  {
+    "id": "d394725b-6fb5-4d2e-a21d-8039e7521280",
+    "title": "Smart Energy Management System for Residential Buildings",
+    "description": "An IoT-based system for monitoring and optimizing energy consumption in homes. The system uses machine learning to predict usage patterns and automatically adjusts settings to reduce waste.",
+    "author": "Michelle Lee",
+    "supervisor": "Prof. Robert Garcia",
+    "year": 2022,
+    "department": "Electrical Engineering",
+    "tags": [
+      "IoT",
+      "Energy",
+      "Smart Home",
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "4b617c47-4386-46f7-af87-40a4c0639d19",
+    "title": "Natural Language Processing for Medical Records Analysis",
+    "description": "Application of NLP techniques to extract and analyze information from unstructured medical records. The system helps identify patterns and correlations that might be missed in manual review.",
+    "author": "James Wilson",
+    "supervisor": "Dr. Patricia Moore",
+    "year": 2023,
+    "department": "Health Informatics",
+    "tags": [
+      "NLP",
+      "Healthcare",
+      "Data Analysis",
+      "Medical Records"
+    ]
+  },
+  {
+    "id": "12f8f1f1-eed0-43b7-bd47-7f6b7da4a8ec",
+    "title": "Secure Authentication System Using Facial Recognition",
+    "description": "Development of a secure authentication system that uses facial recognition with liveness detection to prevent spoofing attacks. The system employs deep learning models to achieve high accuracy.",
+    "author": "Emma Johnson",
+    "supervisor": "Dr. Thomas Brown",
+    "year": 2023,
+    "department": "Computer Science",
+    "tags": [
+      "Security",
+      "Authentication",
+      "Facial Recognition",
+      "Deep Learning"
+    ]
+  },
+  {
+    "id": "dd6bc72a-393a-450f-b2e5-09b85342fe4e",
+    "title": "Sustainable Urban Planning Using GIS and AI",
+    "description": "Integration of Geographic Information Systems (GIS) with artificial intelligence to optimize urban planning for sustainability. The project develops models for efficient transportation networks, green spaces, and resource allocation.",
+    "author": "Carlos Mendez",
+    "supervisor": "Prof. Jennifer White",
+    "year": 2024,
+    "department": "Urban Planning",
+    "tags": [
+      "GIS",
+      "Urban Planning",
+      "Sustainability",
+      "AI"
+    ]
+  },
+  {
+    "id": "fdca98d6-b799-48ab-8899-1267a9915bb1",
+    "title": "Blockchain-Based Voting System",
+    "description": "Implementation of a secure and transparent voting system using blockchain technology. The system ensures vote integrity, voter anonymity, and provides real-time auditing capabilities.",
+    "author": "Aisha Patel",
+    "supervisor": "Dr. Richard Lee",
+    "year": 2022,
+    "department": "Computer Science",
+    "tags": [
+      "Blockchain",
+      "Voting",
+      "Security",
+      "Transparency"
+    ]
+  },
+  {
+    "id": "a91909ed-1aba-40bd-b36e-585a62dc92b6",
+    "title": "AI-Driven Financial Fraud Detection",
+    "description": "Development of an AI system that detects fraudulent financial transactions in real-time. The project uses anomaly detection and machine learning to identify suspicious patterns with minimal false positives.",
+    "author": "Michael Zhang",
+    "supervisor": "Prof. Sarah Anderson",
+    "year": 2023,
+    "department": "Finance",
+    "tags": [
+      "AI",
+      "Fraud Detection",
+      "Finance",
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "78000fea-1e0a-4fcc-b8bb-327341728270",
+    "title": "Virtual Reality for Surgical Training",
+    "description": "Creation of a VR-based surgical training platform that provides realistic simulations for medical students. The system includes haptic feedback and performance analytics to enhance learning outcomes.",
+    "author": "Sophia Kim",
+    "supervisor": "Dr. James Martinez",
+    "year": 2024,
+    "department": "Medical Education",
+    "tags": [
+      "VR",
+      "Medical",
+      "Surgery",
+      "Training"
+    ]
+  }
+]
