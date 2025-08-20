@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter, useSearchParams } from 'next/navigation';
@@ -9,7 +9,7 @@ import { Card } from "@/components/ui/card";
 import { supabase } from "@/lib/supabase";
 import { ForgotPasswordForm } from "@/components/ForgotPasswordForm";
 
-export default function LoginPage() {
+function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const redirectTo = searchParams.get('redirectTo');
@@ -537,5 +537,20 @@ export default function LoginPage() {
         </div>
       </Card>
     </main>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="animate-pulse text-center">
+          <div className="text-2xl font-semibold mb-2">Loading...</div>
+          <p className="text-gray-600">Preparing your login experience</p>
+        </div>
+      </div>
+    }>
+      <LoginForm />
+    </Suspense>
   );
 } 

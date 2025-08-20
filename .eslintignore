@@ -1,0 +1,11 @@
+**/node_modules/*
+**/.next/*
+**/out/*
+**/public/*
+**/types/*
+**/api/**/*.py
+**/*.d.ts
+**/*.config.js
+**/*.config.ts
+**/test-*.tsx
+**/test-*.ts
